@@ -7,7 +7,7 @@ module Sprockets
     WRAPPER = '%s.define({"%s":' +
               'function(exports, require, module){' +
               '%s' +
-              ";}});\n"
+              "\n;}});\n"
 
     class << self
       attr_accessor :default_namespace
